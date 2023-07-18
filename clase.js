@@ -70,6 +70,7 @@
 // console.log(" ahora B se llama " +b)
 
 
+                                   // DIA 17/7/23
                                     // ACTIVIDAD 2
 
 // parseint   asegura de que sea solo numeros enteros
@@ -137,3 +138,7 @@
 
 //     console.log("hay un " +porcentajeniños+" % de niños" );
 //     console.log("hay un " +porcentajeniñas+" % de niñas");
+
+                             // TERMINA LA PRACTICA DIA 17/07/23
+
+
