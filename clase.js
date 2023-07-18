@@ -313,4 +313,4 @@ var porcentajeniñas =100-porcentajeniños;
     console.log("hay un " +porcentajeniñas+" % de niñas");
 
 }
-act3;
+act3();
