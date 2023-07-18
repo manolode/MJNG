@@ -295,22 +295,23 @@
 
 
 
-function act3(niños, niñas){
+// function act3(niños, niñas){
 
- niños= parseInt(prompt("Introduce numero de niños" , "0"));
-console.log("niños " );
+//  niños= parseInt(prompt("Introduce numero de niños" , "0"));
+// console.log("niños " );
 
-  niñas= parseInt( prompt("introduce numero de niñas" , "0"));
-console.log("niñas" );    
-
-
-var porcentajeniños =niños*100/(niños+niñas);
-var porcentajeniñas =100-porcentajeniños;
+//   niñas= parseInt( prompt("introduce numero de niñas" , "0"));
+// console.log("niñas" );    
 
 
+// var porcentajeniños =niños*100/(niños+niñas);
+// var porcentajeniñas =100-porcentajeniños;
 
-    console.log("hay un " +porcentajeniños+" % de niños" );
-    console.log("hay un " +porcentajeniñas+" % de niñas");
 
-}
-act3();
+
+//     console.log("hay un " +porcentajeniños+" % de niños" );
+//     console.log("hay un " +porcentajeniñas+" % de niñas");
+
+// }
+// act3();
+
