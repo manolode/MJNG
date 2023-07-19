@@ -315,3 +315,65 @@
 // }
 // act3();
 
+
+
+// function actividad5(){
+// var importe= parseInt(prompt("importe de la compra" , "0"));
+// console.log("importe " );
+
+// var mes= prompt("introduce el mes" , "0");
+// console.log("mes" );  
+
+// if (mes=="octubre") {
+//     document.write("el importe es " + (importe*0.85))
+// }
+
+// }
+// actividad5();
+
+
+// function actividad6(){
+// for (var n=1; n<=3; n++){
+
+ 
+    
+// var clave= parseInt(prompt("introduce la clave" , "0"));
+
+
+// if (clave==123456){
+
+// document.write("la clave es correcta")
+// break;
+// }
+    
+// else {
+
+//     document.write( "la clave no es correcta vuelve a intentarlo")
+// }
+
+// }
+// document.write(" fin del programa")
+// }
+
+// actividad6();
+
+
+
+// actividad 9
+
+// DESCRIPCIÓN
+// 1.- Crear una tabla de multiplicar en documento html de un número introducido por ventana.
+
+
+// 2.- Crear todas las tablas de multiplicar hasta el 10, mostrar en el mismo documento html.
+
+
+// 3.- Crear tablas de multiplicar hasta el número introducido en el apartado 1. Mostrar en el mismo documento html.
+
+
+
+
+
+
+
+ 
