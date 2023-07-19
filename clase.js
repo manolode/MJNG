@@ -372,8 +372,16 @@
 
 
 
+// 1ª
+// var tabla= parseInt(prompt("que tabla desea"));
+
+// for (var i= 1; i<=10;  i++) {
+//      document.write(i+ " x "+ tabla+ " = " + i*tabla + "<br/>" );
+// }
 
 
 
 
- 
+//  2ª
+
+
