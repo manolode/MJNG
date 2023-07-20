@@ -385,3 +385,32 @@
 //  2ª
 
 
+
+// ACTIVIDAD 11
+
+
+
+// var nombre= (prompt("su puesto" , "0"));
+
+
+// if (nombre=="admin")  {
+
+//         var pass = prompt("su contraseña");
+//         if (pas="webmaster"){
+//             alert ("bienvenido");}
+//             else if (pass==="" || pass==="null"){
+//              alert ("cancelado");
+//             }else {
+//                 alert("contraseña incorrecta");
+//             }
+
+  
+
+//         }else if (nombre === "" || nombre=== null){
+//             alert ("cancelado");
+//         }else {
+//             alert ("usuario incorrecto");
+//         }
+
+
+// ACTIVIDAD 12
