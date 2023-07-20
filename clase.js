@@ -414,3 +414,12 @@
 
 
 // ACTIVIDAD 12
+
+function comprobar(){
+
+    let operador = document.getElementById("operadores").
+    Value;
+    resultado = eval(operador);
+    document.getElementById("resultado").
+    innerHTML="Resultado:" + resultado;
+}
