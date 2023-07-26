@@ -415,11 +415,14 @@
 
 // ACTIVIDAD 12
 
-function comprobar(){
+// function comprobar(){
 
-    let operador = document.getElementById("operadores").
-    Value;
-    resultado = eval(operador);
-    document.getElementById("resultado").
-    innerHTML="Resultado:" + resultado;
-}
+//     let operador = document.getElementById("operadores").
+//     Value;
+//     resultado = eval(operador);
+//     document.getElementById("resultado").
+//     innerHTML="Resultado:" + resultado;
+// }
+
+
+
