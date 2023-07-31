@@ -62,5 +62,30 @@ document.getElementById("botonAñadir").addEventListener("click", function(event
         }, 1500)
     }
     guardar("alumnos", alumnos);
+    
+})
 
+window.addEventListener("load",  () =>{
+    let alumnoEd= document.getElementById("alumnoEditar");
+    let alumnoEl = document.getElementById("alumnoEliminar");
+    for (let i=0: i < alumnos.length; i++){
+        alumnoEd.innerHTML += `<option>${alumnos[i].nombre} </option>`
+        alumnoEl.innerHTML += `<option>${alumnos[i].nombre} </option>`
+    }
+    Object.keys(alumnos[0]).forEach(element => {
+        atributoed.innerHTML += `<option>${element}</option>`
+    });
+
+    let muestraalumnos = document.getElementById("mostraAlumnos");
+    muestraalumnos.innerHTML = "";
+    for (let i=0; i<alumnos.length; i++){
+        muestraalumnos.innerHTML += `
+        <div class="contenedorAlumnos">
+        <img src="${alumnos[i].urlImagen}">
+        <div class="informacion">
+        <p>${alumnos[i].nombre}</p>
+        <p class="apellido"><span>Apellido: ${alumnos[i].apellido}</span><p/>
+        email : ${alumnos[i].email}<p></p></div></div>`   
+
+}
 })
