@@ -1,0 +1,185 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+   background-color: rgb(211, 235, 227); 
+
+
+}
+
+/* COMIENZO DEL HEADER */
+header{
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header img{
+
+    height: 100px;
+    padding-left: 50px;
+ 
+}
+
+/* COMIENZO DEL NAV */
+nav{
+
+    padding-right: 100px;
+    word-spacing: 15px;
+    
+}
+
+nav a{
+
+    color: white;
+    font-size: 35px;
+  
+}
+
+nav a:hover{
+
+    color: yellow;
+}
+
+/* FIN DEL HEADER CON NAV */
+
+/* COMIENZO DEL ID CUERPO*/
+
+#cuerpo{
+display: flex;
+    background-color: rgb(75, 244, 244);
+    height: 70vh;
+}
+
+.cuerpos {
+
+    /* width: 100%;
+ * height: 100%; */ */   /
+}
+
+/* clase acceder */
+.acceder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(60, 17, 17);
+    height: 35vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.acceder h3{
+
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.acceder input{
+
+    background-color: black;
+    height: 3em;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+    background-image:url(imagenes/imagen-fondo.png)  ;
+    justify-content: space-around;
+   
+}
+
+.imagen h4{
+    text-align: center;
+    color:red;
+    font-size: 2em;
+}
+
+.imagen p{
+
+    text-align: center;
+    width: 70%;
+    padding-top: 50px;
+}
+
+.imagen button a{
+
+    height: 10%;
+    width: 20%;
+    padding-bottom: 10px;
+}
+    /* CLASE INFORMACION */
+
+.informacion{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   
+    
+    
+}
+
+.informacion img{
+    margin-top: -25px;
+}
+
+.informacion button{
+    display: flex;
+    width: 30%;
+    flex-direction: c;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 10%;
+    font-size: 1.5em;
+    margin: auto;
+
+}
+
+.informacion h1{
+
+    font-size: 3em;
+}
+
+.informacion p{
+
+    font-size: 1.5em;
+}
+
+/* comienzo del footer */
+footer{
+
+    background-color: black;
+    height: 25vh;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 50px;
+}
+
+
+
+    
