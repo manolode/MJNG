@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,35 +21,60 @@
        
     </header>
 
+
     <section id="cuerpo">
+      <div class="cuerpos">
         <section class="acceder">
-          <h3>ACCEDER</h3>
-          <button></button>
-          <button></button>
-  
-        </section>
+          <h3>NOMBRE DE USUARIO</h3>
+          <P>ROL</P>
+          
+      
+     </section>
   
         <section class="imagen">
   
-          <img src= url  alt="descripcion del curso">
-          <div><h4>POSIBILIDADES</h4></div>
-          <p></p>
-          <button></button>
-        </section>
-  
-        <section class="informacion">
           <img src="" alt="">
-          <h1></h1>
-          <p></p>
-          <button>INFORMACION</button>
+          <h4>OFERTA FORMATIVA</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni unde impedit at ipsa ab beatae minus deserunt totam rem eligendi optio sapiente, accusamus suscipit excepturi quibusdam </p>
+          <div><button><a href="curso.html">INFORMACION</a></button></div>
+        </section>
+      </div>
+      <div class="seccion2">
+        <section class="informacion">
+           <!-- <img src="imagenes/imagen-curso.jpg"alt="informacion" width="100%" height="500px"> -->
+          <!-- <h1>Entra en nuestra academia</h1> -->
+          <!-- <p>Texto legal</p> -->
+          <!-- <button type="submit">ENVIAR</button> -->
+
+          <form>
+            <label>Nombre </label>
+            <input type="text" id="alumnoAñadir" name="nombreDelAlumno">
+
+
+            <label>Correo Electrónico</label>
+            <input type="email" id="emailAñadir">
+
+            <label>Asunto</label>
+            <input type="text" id="asuntoAñadir">
+
+            <label>Mensaje</label>
+            <input type="text" id="mensajeAñadir">
+
+            <!-- <input class="button" type="button" id="botonAñadir" value="Añadir"> -->
+
+            <button id="botonAñadir">ENVIAR</button>
+        </form>
+        <div id="mensaje"></div>
+        </section>
+
+       <div><p>textos legales</p></div>
+
+  </div> 
+  </section>
   
-        </section>
+  
 
-        <section class="textolegal">
-          <p>Texto legal</p>
 
-        </section>
-    </section>
   
       <footer>
           <p>todos los derechos reservados</p>
@@ -56,6 +83,6 @@
 
 
 
-    
+    <script src="f1842.js"></script>
 </body>
 </html>
