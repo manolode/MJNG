@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 5vh;
+}
+
+.principal{
+    min-height: 90vh;
+    background-image: url('media/fondo.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    align-items: center;
+
+  
+}
+
+.puntos {
+    margin: auto;
+}
+
+header{
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#button{
+
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+
+
+footer{
+    min-height: 5vh;
+}

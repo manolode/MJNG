@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 03 UF1843</title>
+    <link rel="stylesheet" href="A30808023.css">
+    <!-- LINK CSS DE UI -->
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.min.css">
+    <!-- SCRIPT JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- SCRIPT UI -->
+    <script src="jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="A3.js"></script>
+
+
+
+
+
+
+    <style>
+        .toggler { width: 300px; height: 200px; position: relative; }
+        #button { padding: .5em 1em; text-decoration: none; }
+        #effect { width: 540px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+        .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
+      </style>
+      <script>
+       $( function() {
+        $( "#button" ).on( "click", function() {
+          $( "#effect" ).addClass( "newClass", 1000, callback );
+        });
+     
+        function callback() {
+          setTimeout(function() {
+            $( "#effect" ).removeClass( "newClass" );
+          }, 1500 );
+        }
+      } );</script>
+</head>
+<body>
+    
+   
+
+
+    <header>
+
+        <div class="toggler">
+            <div id="effect" class="ui-corner-all">
+                ESTO ES UNA CLASE DE JS Y JQUERY
+            </div>
+          </div>
+           
+          <button id="button" class="ui-state-default       ui-corner-all">AMPLIAME</button>
+           
+
+
+    </header>
+    <main>
+        <section  class="principal">
+             <div   class="puntos" title="Usuario">
+                <img src="media/PNG/Recurso 1.png" alt="">
+            </div>
+
+
+            <div class="puntos" title="Localizacion">
+                <img src="media/PNG/Recurso 2.png" alt="">
+            </div>
+            <div class="puntos" title="wifi">
+                <img src="media/PNG/Recurso 3.png" alt="">
+            </div>
+            <div class="puntos" title="pizarra">
+                <img src="media/PNG/Recurso 4.png" alt="">
+            </div>
+            <div class="puntos" title="global">
+                <img src="media/PNG/Recurso 5.png" alt="">
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
