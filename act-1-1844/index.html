@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD 1 UF-1844</title>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.min.css">
+
+    <!-- EL ENLACE INFERIOR ES PARA TRABAJAR CON CONEXION A RED .......................................-->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="    crossorigin="anonymous"></script> -->
+
+    <!-- EL ENLACE INFERIOR ES PARA TRABAJAR SIN CONEXION ..............................................-->
+    <script src="JQUERY/jquery.js"></script>
+
+    <script src="JQUERY/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="JAVASCRIP/codigo.js"></script>
+    
+
+</head>
+<body>
+
+    <h1>LLAMADAS O PETICIONES AJAX CON JQUERY</h1>
+
+    <section id="formulario">
+      
+      <form action="https://reqres.in/api/users" method="POST" id="formulario"> 
+
+        <!-- <label for="nombre"></label> -->
+
+        Codigo <input type="number" name="codigo" placeholder="coloca tu codigo"/>
+        Nombre <input type="text" name="nombre" placeholder="Su nombre"/>
+        Apellidos <input type="text" name="apellidos" placeholder="Sus apellidos"/>
+        Correo Electronico <input type="email" name="correo" placeholder="su mail">
+        Edad <input type="number" name="edad" placeholder="su edad">
+        Foto <input type="url" name="foto" placeholder="su foto">
+
+         <input type="submit" value="Registrar" class="enviar">
+
+      </form>
+    </section>
+   
+
+    <!-- <div id="datos"></div> -->
+</body>
+</html>

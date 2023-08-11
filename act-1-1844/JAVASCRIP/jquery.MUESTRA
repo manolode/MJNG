@@ -1,0 +1,159 @@
+
+// si coloco en el head el script esta funcion es necesaria 
+
+
+$(document).ready(function (){
+
+//CAMBIOS CON CSS
+
+    $(".boton").click(function(){
+        $(".informacion").css
+        ("background-image", "url('imagenes/imagen-curso.jpg')");
+
+        $(".informacion h1,p").css
+        ("color", "#ffff00");
+    
+       
+    })
+
+    $(".alumno").click(function(){
+
+        $(this).css
+        ("background-color", "#ffff00");
+
+    })
+
+    $("h3").click(function (){
+        $("#cuerpo").ccs
+        ("color", "#ffff00");
+
+    })
+
+    $("h4").click(function (){
+        $(".imagen h4").ccs
+        ("color", "#ffff00");
+
+    })
+
+    $("h3").mouseenter(function (){
+        $(".cuerpos h3").ccs
+        ("color", "#ffff00");
+
+    })
+
+     $("p").click(function (){
+        $(".pepe, p").ccs
+        ("color", "#ffff00");
+
+    })
+
+
+       //APRIETO BOTON UNO Y SALTA EL CONTENIDO EN TEXCONT.1
+    $("#uno").click(function(){
+        $( ".textcont1" ).draggable();
+    } );
+
+//boton 2.............................................
+    $("#dos").click(function(){
+        $( ".cont2" ).resizable();
+    } );
+
+//boton 3................................................
+    $("#tres").click(function(){
+        $( ".cont3" ).tooltip();
+    });
+ //boton numero 4.....................................
+
+    $( ".cont4" ).click( function() {
+          $( ".cont4" ).toggle( "clip", 1000 );
+     });
+ //boton numero 5.................................
+
+    
+  //boton 6............................................
+
+     $("#seis").click(function(){
+
+         $(".cont6").toggle("fade",
+         4000)
+   
+     });
+
+ //boton 7...............................................
+
+
+     $("#siete").click(function(){
+        $( ".cont7" ).slider();
+    } );
+
+
+ //boton 8............................................
+
+    $("#ocho").click(function(){
+        $( ".cont8" ).toggle("bounce", 2000);
+    } );
+
+
+//boton 9.......................................
+
+$("#nueve").click(function(){
+    $( ".cont9" ).toggle("drop", 2000);
+} );
+
+
+//boton 10.....................................
+
+$("#diez").click(function(){
+    $( ".cont10" ).toggle("puff", 5000);
+} );
+
+
+//BOTON 11...............................
+
+$("#once").click(function(){
+    $( ".cont11" ).toggle("blind", 3000);
+} );
+
+//boton 12.........................
+  
+$("#doce").click(function(){
+    $( ".cont12" ).toggle("pulsate", 4000);
+} );
+    
+
+   
+
+    // $("#cinco").click(function(){
+    //  $(".cont5") .css("font-size", "5em");
+   
+  
+    //  $("p")
+    //  .css("font-size", "2.5em");
+
+
+
+ 
+
+ 
+    
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+})
+
