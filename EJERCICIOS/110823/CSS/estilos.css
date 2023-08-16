@@ -1,0 +1,111 @@
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(16, 212, 242);
+}
+/* HEADER................................................................ */
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    height: 20vh;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 10px;
+
+  
+}
+
+header button{
+
+    width: 120px;
+    height: 55px;
+    background-color: rgb(72, 51, 51);
+    color: rgb(244, 236, 236);
+    border-radius: 50%;
+    
+}
+
+/* FINAL DEL HEADER.......................................................... */
+
+/* COMIENZO DE LA SECCION CENTRAL */
+
+
+#central{
+
+    /* background-color: bisque; */
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.desplegable{
+
+    background-color: rgb(237, 152, 152);
+    width: 30%;
+    border-radius: 20px;
+    /* padding-left: 150px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    justify-content: space-around;
+    
+}
+
+#acordeon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+
+ 
+    font-size: 2em;
+    height: 100%;
+    text-align: center;
+   
+
+
+}
+#acciones{
+
+    background-color: rgb(72, 51, 51);
+    width: 70%;
+    border-radius: 20px;
+}
+
+/* FINAL DE LA SECCION CENTRAL*/
+
+/* COMIENZO DEL FOOTER */
+
+footer{
+
+    background-color: black;
+    height: 20vh;
+    width: 75%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 100px;
+    border-radius:25px ;
+    margin-top: 10px;
+    
+}
+

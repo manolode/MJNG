@@ -1,0 +1,236 @@
+
+
+
+*{
+ 
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color:#F1ECE7;
+}
+
+/* comienzo del header */
+
+header {
+
+    background-color: #090909;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+
+    margin-left: 50px;
+    
+}
+
+.logo img{
+
+    height: 100px;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+nav{
+
+    margin-right: 50px;
+   
+}
+
+nav a{
+
+    color: #F1ECE7;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* final del header */
+
+/* comienzo de la clase imagen */
+
+.imagen{
+
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(imagenes/IMG_0012\ \(2\).JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-color: aqua;
+    
+}
+
+
+.imagen img{
+
+  
+   height:100%;
+   width:100%;
+   
+  
+}
+
+.imagen h1{
+    font-size: 50px;
+ 
+}
+
+.imagen p{
+
+    font-size: 25px;
+
+}
+
+
+
+/* clase categorias */
+
+.categorias{
+
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #114358 ;
+}
+
+
+
+/* comienza seccion de contenedores */
+
+.contenedores {
+
+    background-color: #114358;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.contenedores img{
+
+    height: 150px;
+    width: 150px;
+}
+
+.uno{
+
+    padding-left: 60px;
+    text-align: center;
+}
+
+.dos{
+
+    text-align: center;
+}
+
+.tres{
+
+    text-align: center;
+    padding-right: 40px;
+}
+
+/* termino de contenedores */
+
+
+/* comienzo de imagen 2 */
+
+.imagen2 {
+
+    background-image: url(imagenes/IMG_0014.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen2 h2{
+
+    font-size: 70px;
+   text-align: center;
+}
+
+.imagen2 P{
+
+    font-size: 25px;
+    text-align: center;
+
+ 
+}
+
+/* fin clase imagen 2 */
+
+/* comienzo del footer */
+footer{
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25PX;
+    
+
+}
+
+.politica{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.politica a{
+
+    text-decoration: none;
+    color: #090909;
+}
+
+.menu a{
+
+    color: black;
+}
+
+/* FIN DEL FOOTER */
+
+
+
+/* PAGINA DE LOGIN */
+
+#login{
+    background-color: #F2AA1F;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+button{
+
+    background-color: #F2AA1F;
+    width: 250px;
+    height: 50px;
+}
+
